@@ -28,7 +28,7 @@ def formattype(x):
 		"mac":"\r"
 		}.get(x)
 	
-with open(sys.argv[1] , "r",encoding='utf-8', errors='ignore') as ins:
+with open(sys.argv[1] , "r") as ins:
     Farray = []
     for line in ins:
         Farray.append((line))
