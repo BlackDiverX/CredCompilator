@@ -30,12 +30,12 @@ def formattype(x):
 		"mac":"\r"
 		}.get(x)
 
-with open(sys.argv[1] , "r",encoding='utf-8', errors='ignore') as ins:
+with open(sys.argv[1] , "r") as ins:
     Farray = []
     for line in ins:
         Farray.append((line))
 
-with open(sys.argv[2] , "r",encoding='utf-8', errors='ignore') as ins:
+with open(sys.argv[2] , "r") as ins:
     Narray = []
     for line in ins:
         Narray.append(line)
